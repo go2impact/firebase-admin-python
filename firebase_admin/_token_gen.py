@@ -73,7 +73,7 @@ METADATA_SERVICE_URL = (
 )
 ALGORITHM_RS256 = "RS256"
 ALGORITHM_NONE = "none"
-DEFAULT_CLOCK_SKEW_IN_SECONDS = 300
+DEFAULT_CLOCK_SKEW_IN_SECONDS = 3600  # 1 hour
 
 # Emulator fake account
 AUTH_EMULATOR_EMAIL = "firebase-auth-emulator@example.com"
